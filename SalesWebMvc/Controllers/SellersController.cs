@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace SalesWebMvc.Controllers
 {
-	public class SellersController : Controller
+    public class SellersController : Controller
 	{
 		private readonly SellerService _sellerService;
 		private readonly DepartmentService _departmentService;
